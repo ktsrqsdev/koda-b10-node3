@@ -6,14 +6,14 @@ export default [
   js.configs.recommended,
 
   {
-    files: ["**/*.js", "**/*.mjs",],
+    files: ["**/*.js", "**/*.mjs"],
     languageOptions: {
       ecmaVersion: "latest",
       sourceType: "module",
-      globals: globals.node,
+      globals: globals.node
     },
     plugins: {
-      "@stylistic": stylistic,
+      "@stylistic": stylistic
     },
     rules: {
       "no-unused-vars": "warn",
@@ -22,10 +22,10 @@ export default [
       "prefer-const": "error",
       "curly": "error",
 
-      "@stylistic/semi": ["error", "always",],
-      "@stylistic/quotes": ["error", "double",],
-      "@stylistic/indent": ["error", 2,],
-      "@stylistic/comma-dangle": ["error", "always",],
-    },
-  },
+      "@stylistic/semi": ["error", "always"],
+      "@stylistic/quotes": ["error", "double"],
+      "@stylistic/indent": ["error", 2],
+      "@stylistic/comma-dangle": ["error", "never"]
+    }
+  }
 ];
