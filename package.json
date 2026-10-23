@@ -1,0 +1,23 @@
+{
+  "name": "interactive-grading-app",
+  "version": "1.0.0",
+  "description": "sebuah aplikasi interaktif untuk penilaian siswa",
+  "keywords": [
+    "interactive",
+    "grading",
+    "app"
+  ],
+  "license": "MIT",
+  "author": "kautsarqs",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "eslint": "^10.13.0"
+  },
+  "devDependencies": {
+    "@stylistic/eslint-plugin": "^5.10.0"
+  }
+}
