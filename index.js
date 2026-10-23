@@ -1,4 +1,3 @@
-
-import { interactive } from "./lib/interaktif.mjs";
+import { interactive, } from "./lib/interaktif.mjs";
 
 interactive();

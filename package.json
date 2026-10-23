@@ -10,14 +10,16 @@
   "license": "MIT",
   "author": "kautsarqs",
   "type": "module",
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "eslint": "^10.13.0"
+    "start": "node index.mjs",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
-    "@stylistic/eslint-plugin": "^5.10.0"
+    "@eslint/js": "^10.0.1",
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "eslint": "^10.13.0",
+    "globals": "^17.13.0"
   }
 }
